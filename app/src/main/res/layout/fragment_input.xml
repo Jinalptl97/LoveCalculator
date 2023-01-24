@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".fragment.InputFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_your_name"
+        android:layout_width="match_parent"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_your_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_your_partner_mame"
+        android:layout_width="match_parent"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Partner's Name">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_partner_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>
